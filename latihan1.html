@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Latihan</title>
+  </head>
+  <body>
+    <!-- Heading -->
+    <h1> Pizza-On-Demand </h1>
+    <!-- Description -->
+    <p>Our pizzas are available to delivery</p>
+    <form action="http://blackgoosebistro.com/pizza.php" method="get">
+    <!-- Form -->
+    <p>Your Information</p>
+    <label for="nama">Name: </label>
+    <input type="text" name="nama" id="nama">
+    <br>
+    <label for="alamat">Address: </label>
+    <input type="text" address="alamat" id="alamat">
+    <br>
+    <label for="nomor">Telephone: </label>
+    <input type="tel" Telephone="nomor" id="nomor" minlength="11" maxlength="14">
+    <br>
+    <label for="email">Email: </label>
+    <input type="email" Email="email" id="email">
+    <br>
+    <br>
+    <label for="ddc"> Delivery Description: </label>
+    <br>
+    <textarea name="ddc" id="ddc" maxlength="400"placeholder="isi gan jgn lupa"></textarea>
+    <!-- Form Pizza -->
+    <h3>Customize Your Pizza</h3>
+    <p>Desain sendiri gan pizza-nya</p>
+    <label for="crust">Pizza Utama (Pilih satu): </label>
+    <br>
+    <input type="radio" name="crust" id="crust1" value="Pizza Keju">
+    <label for="crust1">Pizza Keju</label>
+    <br>
+    <input type="radio" name="crust" id="crust2" value="Pizza Original">
+    <label for="crust2">Pizza Original</label>
+    <br>
+    <input type="radio" name="crust" id="crust3" value="Pizza Spicy">
+    <label for="crust3">Pizza Spicy</label>
+    <br>
+    <br>
+    <label for="topping">Topping (bebas sampe wareg): </label>
+    <br>
+    <input type="checkbox" name="topping" id="top1" value="Mozarella">
+    <label for="top1">Mozarella</label>
+    <br>
+    <input type="checkbox" name="topping" id="top2" value="Sosis">
+    <label for="top2">Sosis</label>
+    <br>
+    <input type="checkbox" name="topping" id="top3" value="Bakso">
+    <label for="top3">Bakso</label>
+    <br>
+    <input type="checkbox" name="topping" id="top4" value="Daging Giling">
+    <label for="top4">Daging Giling</label>
+    <br>
+    <br>
+    <p>Number of Orders</p>
+    <label for="count">Berapa bungkus bos</label>
+    <input type="number" name="count" id="count" min="1" max="5">
+    <br>
+    <br>
+    <input type="submit" name="submit" id="submit-button" value="Acc gan">
+    </form>
+  </body>
+</html>
